@@ -3,8 +3,9 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -14,19 +15,98 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 45
-    width: 2560
-    height: 1391
+    y: 43.2
+    width: 1536
+    height: 820.8
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 837
+    y: 0
+    width: 417
+    height: 289
+  m_MinSize: {x: 234, y: 274}
+  m_MaxSize: {x: 10004, y: 10024}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 482
+    width: 1254
+    height: 289
+  m_MinSize: {x: 436, y: 274}
+  m_MaxSize: {x: 14006, y: 10024}
+  vertical: 0
+  controlID: 84
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 940
+    y: 0
+    width: 314
+    height: 482
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
+  m_ActualView: {fileID: 24}
+  m_Panes:
+  - {fileID: 24}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -34,99 +114,79 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 11}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2560
-    height: 1341
-  m_MinSize: {x: 683, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+    width: 1536
+    height: 771
+  m_MinSize: {x: 883, y: 498}
+  m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 615
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 2041
-    y: 0
-    width: 519
-    height: 1341
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 505
-    height: 811
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 811
-    width: 2041
-    height: 530
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
+  controlID: 82
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1254
+    y: 0
+    width: 282
+    height: 771
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 837
+    height: 289
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 26}
+  m_Panes:
+  - {fileID: 26}
+  - {fileID: 20}
+  - {fileID: 27}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -134,22 +194,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 9}
+  - {fileID: 5}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
-    height: 1391
-  m_MinSize: {x: 950, y: 300}
+    width: 1536
+    height: 821
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -161,16 +222,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
---- !u!114 &8
+  m_LastLoadedLayoutName: 
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -181,64 +243,67 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1371
-    width: 2560
+    y: 801
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 2041
-    height: 1341
-  m_MinSize: {x: 406, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
-  vertical: 1
-  controlID: 547
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 2041
-    height: 811
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
-  vertical: 0
-  controlID: 548
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1254
+    height: 771
+  m_MinSize: {x: 606, y: 498}
+  m_MaxSize: {x: 14006, y: 14048}
+  vertical: 1
+  controlID: 83
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1254
+    height: 482
+  m_MinSize: {x: 606, y: 224}
+  m_MaxSize: {x: 6054, y: 4024}
+  vertical: 0
+  controlID: 64
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
@@ -248,31 +313,1817 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 505
+    x: 0
     y: 0
-    width: 1536
-    height: 811
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 16}
+    width: 940
+    height: 482
+  m_MinSize: {x: 402, y: 124}
+  m_MaxSize: {x: 2050, y: 2072}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 25}
+  - {fileID: 21}
+  - {fileID: 19}
   - {fileID: 17}
-  - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
+  - {fileID: 16}
+  - {fileID: 15}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 2
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1203200736, guid: f84114d54ebfe914a9f1b7604cac3fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git Diff
+    m_Image: {fileID: -6158769726174120613, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 938
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+  diffScroll: {x: 0, y: 0}
+  commitMaximized: 1
+  filter: 
+  commitScroll: {x: 0, y: 0}
+  selections: []
+  settings:
+    showFileStatusTypeFilter: -1
+    MinimizedFileStatus: -1
+    sortType: 2
+    sortDir: 0
+    emptyCommit: 0
+    amendCommit: 0
+    prettify: 0
+    merge: 1
+    unstagedChangesPriority: 1
+    commitMessage: 
+    commitMessageFromFile: 
+  diffWindowStatusList:
+    entries:
+    - localPath: .collabignore
+      name: .collabignore
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: .gitignore
+      name: .gitignore
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE
+      name: Invector-3rdPersonController_LITE
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models
+      name: 3D Models
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations
+      name: Animations
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\Basic_FreeMovement.fbx
+      name: Basic_FreeMovement.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\Basic_StrafeMoveset.fbx
+      name: Basic_StrafeMoveset.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\Falling.anim
+      name: Falling.anim
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\Jump.anim
+      name: Jump.anim
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\JumpMove.anim
+      name: JumpMove.anim
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\LandSoft.anim
+      name: LandSoft.anim
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\Other
+      name: Other
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Animations\Other\LogoAnimation.anim
+      name: LogoAnimation.anim
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters
+      name: Characters
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0
+      name: Invector@V-Bot 2.0
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\FBX
+      name: FBX
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\FBX\VBOT_LOD.fbx
+      name: VBOT_LOD.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material
+      name: Material
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom
+      name: Custom
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\Body.mat
+      name: Body.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\Joints_Inside.mat
+      name: Joints_Inside.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\Joints_Outside.mat
+      name: Joints_Outside.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\Members_Metal.mat
+      name: Members_Metal.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\Members_Plastic.mat
+      name: Members_Plastic.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\Rubber.mat
+      name: Rubber.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Material\Custom\V.mat
+      name: V.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Prefab
+      name: Prefab
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Prefab\VBOT2.0_Custom.prefab
+      name: VBOT2.0_Custom.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures
+      name: Textures
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom
+      name: Custom
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom\Albedo_body.png
+      name: Albedo_body.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom\Albedo_members.png
+      name: Albedo_members.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom\Metallic_body.png
+      name: Metallic_body.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom\Metallic_members.png
+      name: Metallic_members.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom\Normal_body.png
+      name: Normal_body.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Characters\Invector@V-Bot
+        2.0\Textures\Custom\Normal_members.png
+      name: Normal_members.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others
+      name: Others
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem
+      name: HealthItem
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\Materials
+      name: Materials
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\Materials\Material.mat
+      name: Material.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\Materials\health-01.mat
+      name: health-01.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\Materials\health-02.mat
+      name: health-02.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\Materials\sphereHealthTexture.mat
+      name: sphereHealthTexture.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\health.fbx
+      name: health.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\sphere-health.fbx
+      name: sphere-health.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\sphereHealthTexture.png
+      name: sphereHealthTexture.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\HealthItem\vAnimateUV.cs
+      name: vAnimateUV.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\IcePhysics.physicMaterial
+      name: IcePhysics.physicMaterial
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials
+      name: Materials
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\Ladder_1.mat
+      name: Ladder_1.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\Ladder_2.mat
+      name: Ladder_2.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\blue_cube.mat
+      name: blue_cube.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\blue_cube_simple.mat
+      name: blue_cube_simple.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\blue_door_simple.mat
+      name: blue_door_simple.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\blue_floor_Tiled.mat
+      name: blue_floor_Tiled.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\invector-icon-black.mat
+      name: invector-icon-black.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\invector-icon-dark-gray.mat
+      name: invector-icon-dark-gray.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\invector-icon-light-gray.mat
+      name: invector-icon-light-gray.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\invector-icon-white.mat
+      name: invector-icon-white.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\invector-logo.mat
+      name: invector-logo.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\orange_cube.mat
+      name: orange_cube.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\red_cube.mat
+      name: red_cube.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\stair_Metal.mat
+      name: stair_Metal.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\Materials\stair_chromo.mat
+      name: stair_chromo.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets
+      name: NewAssets
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\Icosphere.asset
+      name: Icosphere.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\Icosphere.prefab
+      name: Icosphere.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\Stairs.asset
+      name: Stairs.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\Stairs.prefab
+      name: Stairs.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\_stairs.asset
+      name: _stairs.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\_stairs.prefab
+      name: _stairs.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\climbUp.asset
+      name: climbUp.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\climbUp.prefab
+      name: climbUp.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\column.asset
+      name: column.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\column.prefab
+      name: column.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\columnB.asset
+      name: columnB.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\columnB.prefab
+      name: columnB.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\door.asset
+      name: door.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\door.prefab
+      name: door.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\floor.asset
+      name: floor.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\floor.prefab
+      name: floor.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\jumpOver.asset
+      name: jumpOver.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\jumpOver.prefab
+      name: jumpOver.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\piece.asset
+      name: piece.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\piece.prefab
+      name: piece.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\platform.asset
+      name: platform.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\platform.prefab
+      name: platform.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\platforms.asset
+      name: platforms.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\platforms.prefab
+      name: platforms.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\ramp45.asset
+      name: ramp45.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\ramp45.prefab
+      name: ramp45.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\ramp50.asset
+      name: ramp50.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\ramp50.prefab
+      name: ramp50.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\ramp60.asset
+      name: ramp60.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\ramp60.prefab
+      name: ramp60.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\statueBase.asset
+      name: statueBase.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\statueBase.prefab
+      name: statueBase.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\stepUp.asset
+      name: stepUp.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\stepUp.prefab
+      name: stepUp.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\support.asset
+      name: support.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\support.prefab
+      name: support.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\tunel.asset
+      name: tunel.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\tunel.prefab
+      name: tunel.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\wall_big.asset
+      name: wall_big.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\wall_big.prefab
+      name: wall_big.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\wall_small.asset
+      name: wall_small.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\NewAssets\wall_small.prefab
+      name: wall_small.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\ObjectPhysics
+        1.physicMaterial
+      name: ObjectPhysics 1.physicMaterial
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\ObjectPhysics.physicMaterial
+      name: ObjectPhysics.physicMaterial
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\basicSky.mat
+      name: basicSky.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\cube difuse.mat
+      name: cube difuse.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\cube.fbx
+      name: cube.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Others\invector-icon.fbx
+      name: invector-icon.fbx
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures
+      name: Textures
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures
+      name: basicTextures
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\LocomotionBanner.png
+      name: LocomotionBanner.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials
+      name: Materials
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\LocomotionBanner.mat
+      name: LocomotionBanner.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\MeleeBanner.mat
+      name: MeleeBanner.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\ShooterBanner.mat
+      name: ShooterBanner.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\blockIcon.mat
+      name: blockIcon.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\frameborder_b.mat
+      name: frameborder_b.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\frameborder_r.mat
+      name: frameborder_r.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\greenEmit.mat
+      name: greenEmit.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\locomotion_statuePlate.mat
+      name: locomotion_statuePlate.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\melee_statuePlate.mat
+      name: melee_statuePlate.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Materials\redEmit.mat
+      name: redEmit.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\Melee-Logo.png
+      name: Melee-Logo.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\MeleeBanner.png
+      name: MeleeBanner.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\ShooterBanner.png
+      name: ShooterBanner.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\blockIcon.png
+      name: blockIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\locomotion_statuePlate_NRM.png
+      name: locomotion_statuePlate_NRM.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\locomotion_statuePlate_NRM2.png
+      name: locomotion_statuePlate_NRM2.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\locomotion_statuePlate_OCC.png
+      name: locomotion_statuePlate_OCC.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\locomotion_statuePlate_OCC2.png
+      name: locomotion_statuePlate_OCC2.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\basicTextures\melee_statuePlate_Melee_NRM.png
+      name: melee_statuePlate_Melee_NRM.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures
+      name: prototype_textures
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials
+      name: Materials
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\Poison_v.mat
+      name: Poison_v.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\carbon.mat
+      name: carbon.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\carbon2.mat
+      name: carbon2.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\door_blue.mat
+      name: door_blue.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\door_green.mat
+      name: door_green.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\door_red.mat
+      name: door_red.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\ladder_Metal.mat
+      name: ladder_Metal.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\ladder_chromo.mat
+      name: ladder_chromo.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_blue.mat
+      name: proto_blue.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_gray
+        1.mat
+      name: proto_gray 1.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_gray.mat
+      name: proto_gray.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_green.mat
+      name: proto_green.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_mobile
+        1.mat
+      name: proto_mobile 1.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_mobile.mat
+      name: proto_mobile.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_orange.mat
+      name: proto_orange.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\proto_red.mat
+      name: proto_red.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\statue_blue.mat
+      name: statue_blue.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\statue_red.mat
+      name: statue_red.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\vgrenades.mat
+      name: vgrenades.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\vjumpMultiplier.mat
+      name: vjumpMultiplier.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\vpoison-old.mat
+      name: vpoison-old.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Materials\vspike-old.mat
+      name: vspike-old.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures
+      name: Textures
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\NormalMap
+        (2).png
+      name: NormalMap (2).png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\deadgrass.png
+      name: deadgrass.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\deadgrass_NRM.png
+      name: deadgrass_NRM.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\download.png
+      name: download.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\gras.png
+      name: gras.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\grass.png
+      name: grass.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\gravel.png
+      name: gravel.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\gravel_NRM.png
+      name: gravel_NRM.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\metal.jpg
+      name: metal.jpg
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\metal_normal.png
+      name: metal_normal.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\proto-white.png
+      name: proto-white.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\proto-white_NRM.png
+      name: proto-white_NRM.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\proto-white_OCC.png
+      name: proto-white_OCC.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\soilSand.png
+      name: soilSand.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\soilSand_NRM.png
+      name: soilSand_NRM.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vTile.png
+      name: vTile.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vTile_NRM.jpg
+      name: vTile_NRM.jpg
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vgrenades.png
+      name: vgrenades.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vpoison-old-normal.png
+      name: vpoison-old-normal.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vpoison-old.png
+      name: vpoison-old.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vspike.png
+      name: vspike.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\Textures\vspring.png
+      name: vspring.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\3D Models\Textures\prototype_textures\blue_floor_Tiled
+        1.mat
+      name: blue_floor_Tiled 1.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Animator
+      name: Animator
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Animator\Invector@BasicLocomotion.controller
+      name: Invector@BasicLocomotion.controller
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Audio
+      name: Audio
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Audio\pickup.wav
+      name: pickup.wav
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Documentation_BasicLocomotion_LITE.pdf
+      name: Documentation_BasicLocomotion_LITE.pdf
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Invector_BasicLocomotion.unity
+      name: Invector_BasicLocomotion.unity
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Prefabs
+      name: Prefabs
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Prefabs\ThirdPersonController_LITE.prefab
+      name: ThirdPersonController_LITE.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Prefabs\vThirdPersonCamera_LITE.prefab
+      name: vThirdPersonCamera_LITE.prefab
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\README_Basic.txt
+      name: README_Basic.txt
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources
+      name: Resources
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\BarBg.png
+      name: BarBg.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\BebasKai-Regular.otf
+      name: BebasKai-Regular.otf
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Box.png
+      name: Box.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\BoxHover.png
+      name: BoxHover.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\BoxShadown.png
+      name: BoxShadown.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\InvectorThirdPersonControllerTrailer.mp4
+      name: InvectorThirdPersonControllerTrailer.mp4
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\LightBox.png
+      name: LightBox.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Materials
+      name: Materials
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Materials\basicLogo.mat
+      name: basicLogo.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Materials\comparacao.mat
+      name: comparacao.mat
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Reckoner.ttf
+      name: Reckoner.ttf
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\TextAreaSkin.png
+      name: TextAreaSkin.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Unity-Asset-Store.png
+      name: Unity-Asset-Store.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Wall-albedo.png
+      name: Wall-albedo.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Wall-albedo_v2.png
+      name: Wall-albedo_v2.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Wall-nm.png
+      name: Wall-nm.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\Wall-occ_fully.png
+      name: Wall-occ_fully.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\banner.png
+      name: banner.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\basicLogo.png
+      name: basicLogo.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\boxLight.png
+      name: boxLight.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\builderAddon.png
+      name: builderAddon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\button_skin.png
+      name: button_skin.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\clickToMoveIcon.png
+      name: clickToMoveIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\climbAddon.png
+      name: climbAddon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\customBox.png
+      name: customBox.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\hightlightBox.png
+      name: hightlightBox.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\icon_v2.png
+      name: icon_v2.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\invectorBanner.png
+      name: invectorBanner.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\logo.png
+      name: logo.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\mobileIcon.png
+      name: mobileIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\platformIcon.png
+      name: platformIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\square.png
+      name: square.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\stealthKillAddon.png
+      name: stealthKillAddon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\swimmingAddon.png
+      name: swimmingAddon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\templatesFeatures.png
+      name: templatesFeatures.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\templatesPromo.jpg
+      name: templatesPromo.jpg
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\topdownIcon.png
+      name: topdownIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\vCommentEditIcon.png
+      name: vCommentEditIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\vCommentMessageIcon.png
+      name: vCommentMessageIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\vCommentMessageIconColor.png
+      name: vCommentMessageIconColor.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\vMansionIcon.png
+      name: vMansionIcon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\vbg.png
+      name: vbg.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Resources\ziplineAddon.png
+      name: ziplineAddon.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts
+      name: Scripts
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Camera
+      name: Camera
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Camera\Editor
+      name: Editor
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Camera\Editor\vThirdPersonCameraEditor.cs
+      name: vThirdPersonCameraEditor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs
+      name: vThirdPersonCamera.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController
+      name: CharacterController
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor
+      name: Editor
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources
+      name: Resources
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources\vEditorStartupPrefs.asset
+      name: vEditorStartupPrefs.asset
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources\vEditorStartupPrefs.cs
+      name: vEditorStartupPrefs.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources\vSkin.guiskin
+      name: vSkin.guiskin
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\Resources\welcomeWindowSkin.guiskin
+      name: welcomeWindowSkin.guiskin
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vCharacterEditor.cs
+      name: vCharacterEditor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vInvectorStartup.cs
+      name: vInvectorStartup.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vInvectorWelcomeWindow.cs
+      name: vInvectorWelcomeWindow.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\Editor\vThirdPersonInputEditor.cs
+      name: vThirdPersonInputEditor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonAnimator.cs
+      name: vThirdPersonAnimator.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs
+      name: vThirdPersonController.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs
+      name: vThirdPersonInput.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonMotor.cs
+      name: vThirdPersonMotor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator
+      name: CharacterCreator
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Icon
+      name: Icon
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Icon\CharacterTemplate.png
+      name: CharacterTemplate.png
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script
+      name: Script
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor
+      name: Editor
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs
+      name: vCreateBasicCharacterEditor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\CharacterCreator\Script\Editor\vHelperEditor.cs
+      name: vHelperEditor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic
+      name: Generic
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils
+      name: Utils
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\Editor
+      name: Editor
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\Editor\vCommentEditor.cs
+      name: vCommentEditor.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs
+      name: vComment.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs
+      name: vExtensions.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs
+      name: vPickupItem.cs
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Assets\Plugins
+      name: Plugins
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Scenes
+      name: Scenes
+      metaChange: 2
+      state: 128
+      flags: 0
+    - localPath: Assets\Scenes\SampleScene.unity
+      name: SampleScene.unity
+      metaChange: 3
+      state: 128
+      flags: 0
+    - localPath: Packages\manifest.json
+      name: manifest.json
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\AudioManager.asset
+      name: AudioManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\ClusterInputManager.asset
+      name: ClusterInputManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\DynamicsManager.asset
+      name: DynamicsManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\EditorBuildSettings.asset
+      name: EditorBuildSettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\EditorSettings.asset
+      name: EditorSettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\GraphicsSettings.asset
+      name: GraphicsSettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\InputManager.asset
+      name: InputManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\NavMeshAreas.asset
+      name: NavMeshAreas.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\Physics2DSettings.asset
+      name: Physics2DSettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\PresetManager.asset
+      name: PresetManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\ProjectSettings.asset
+      name: ProjectSettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\ProjectVersion.txt
+      name: ProjectVersion.txt
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\QualitySettings.asset
+      name: QualitySettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\TagManager.asset
+      name: TagManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\TimeManager.asset
+      name: TimeManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\UnityConnectSettings.asset
+      name: UnityConnectSettings.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: ProjectSettings\VFXManager.asset
+      name: VFXManager.asset
+      metaChange: 1
+      state: 128
+      flags: 0
+    - localPath: Assets\Plugins\LibGit2
+      name: LibGit2
+      metaChange: 2
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\LibGit2Sharp
+      name: LibGit2Sharp
+      metaChange: 2
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\LibGit2Sharp\
+      name: 
+      metaChange: 1
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\LibGit2\
+      name: 
+      metaChange: 1
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\UniGit
+      name: UniGit
+      metaChange: 2
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\UniGit\
+      name: 
+      metaChange: 1
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\WindowsCredentialManagement
+      name: WindowsCredentialManagement
+      metaChange: 2
+      state: 16384
+      flags: 0
+    - localPath: Assets\Plugins\WindowsCredentialManagement\
+      name: 
+      metaChange: 1
+      state: 16384
+      flags: 0
+    - localPath: Library\
+      name: 
+      metaChange: 1
+      state: 16384
+      flags: 0
+    - localPath: Temp\
+      name: 
+      metaChange: 1
+      state: 16384
+      flags: 0
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 666747540, guid: f84114d54ebfe914a9f1b7604cac3fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git History
+    m_Image: {fileID: -6158769726174120613, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 938
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+  serializedProfilePictures: []
+  historyScroll: {x: 0, y: 0}
+  selectedBranchName: refs/heads/master
+  maxCommitsCount: 16
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1467679456, guid: f84114d54ebfe914a9f1b7604cac3fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitLog
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 938
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+  scroll: {x: 0, y: 0}
+  infoScroll: {x: 0, y: 0}
+  showWarnings: 1
+  showLog: 1
+  showError: 1
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1315540125, guid: f84114d54ebfe914a9f1b7604cac3fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: UniGit.GitRemoteToolsWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 938
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+  issuesSerialized: "{\n  \"message\": \"Bad credentials\",\n  \"documentation_url\":
+    \"https://developer.github.com/v3\"\n}\n"
+  currentCommentsSerialzied: 
+  currentIssue: -1
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12157, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Services
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1254.4
+    y: 73.6
+    width: 280
+    height: 751
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
+  m_GlobalObjectTypeName: 
+  m_RegisteredViewURLs:
+  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
+  - https://public-cdn.cloud.unity3d.com/editor/production/cloud/collab
+  m_RegisteredViewInstances:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 938
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 530.4
+    width: 839
+    height: 254
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -12918
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
@@ -280,25 +2131,25 @@ MonoBehaviour:
     m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
---- !u!114 &13
+    x: 0
+    y: 73.6
+    width: 938
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
@@ -306,23 +2157,24 @@ MonoBehaviour:
     m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 905
-    width: 2039
-    height: 509
+    x: 836.8
+    y: 555.2
+    width: 413
+    height: 269
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
     m_VersionControlStates: []
+    m_SoftLockControlStates: []
     m_ReferencingInstanceIDs: 
-    m_ScenePaths: []
+    m_SceneHandles: 
     m_ShowAllHits: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
     - Assets
   m_ViewMode: 1
@@ -330,13 +2182,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/danielbrauer/Unity Projects/New Unity Project 20
-  m_IsLocked: 0
+  m_LastProjectPath: E:\github\AinCarry\GameXProject
+  m_LockTracker:
+    m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b0230000
-    m_LastClickedID: 9136
-    m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
+    m_SelectedIDs: 7a260000
+    m_LastClickedID: 9850
+    m_ExpandedIDs: 000000007a260000102c0000142c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -353,19 +2206,18 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
       m_Path: 
       m_Icon: {fileID: 0}
       m_ResourceFile: 
-    m_SearchString: 
-    m_ColumnWidths: []
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b023000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000007a260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -382,18 +2234,17 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
       m_Path: 
       m_Icon: {fileID: 0}
       m_ResourceFile: 
-    m_SearchString: 
-    m_ColumnWidths: []
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -410,7 +2261,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -421,18 +2272,18 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 115
---- !u!114 &14
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -440,32 +2291,34 @@ MonoBehaviour:
     m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 2043
-    y: 94
-    width: 517
-    height: 1320
-  m_ScrollPosition: {x: 0, y: 0}
-  m_InspectorMode: 0
+    x: 1254.4
+    y: 73.6
+    width: 280
+    height: 751
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
   m_PreviewResizer:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -473,58 +2326,54 @@ MonoBehaviour:
     m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 94
-    width: 503
-    height: 790
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_SearchString: 
-    m_ColumnWidths: []
-  m_ExpandedScenes: []
-  m_CurrenRootInstanceID: 0
-  m_Locked: 0
-  m_CurrentSortingName: TransformSorting
---- !u!114 &16
+    x: 940
+    y: 73.6
+    width: 310
+    height: 462
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 94280000
+      m_LastClickedID: 0
+      m_ExpandedIDs: defbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 4}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 1
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 0c71a7c4c99aaf947a6b52f7718312b4
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -532,15 +2381,15 @@ MonoBehaviour:
     m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 7.2000003
+    y: 80.8
+    width: 930
+    height: 437
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_WindowGUID: 088d319e7a78c1e43acc96806c4d20f0
   m_SceneLighting: 1
-  lastFramingTime: 0
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
@@ -549,12 +2398,18 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
+    showParticleSystems: 1
   grid:
     xGrid:
       m_Target: 0
@@ -580,24 +2435,25 @@ MonoBehaviour:
     m_Target: 0
     speed: 2
     m_Value: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_ShowGlobalGrid: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 1
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -605,25 +2461,27 @@ MonoBehaviour:
     m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 0
+    y: 555.2
+    width: 835
+    height: 269
+  m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -383
-    m_HBaseRangeMax: 383
-    m_VBaseRangeMin: -193.25
-    m_VBaseRangeMax: 193.25
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -334
+    m_HBaseRangeMax: 334
+    m_VBaseRangeMin: -100.8
+    m_VBaseRangeMax: 100.8
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -633,47 +2491,49 @@ MonoBehaviour:
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
-    m_EnableSliderZoom: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
     m_UpDirection: 1
     m_DrawArea:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1532
-      height: 773
-    m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 766, y: 386.5}
+      width: 835
+      height: 252
+    m_Scale: {x: 1.2181463, y: 1.2181463}
+    m_Translation: {x: 417.5, y: 126}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -383
-      y: -193.25
-      width: 766
-      height: 386.5
+      x: -342.73386
+      y: -103.43585
+      width: 685.4677
+      height: 206.8717
     m_MinimalGUI: 1
-  m_defaultScale: 2
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
-  m_CurrentColorSpace: 1
-  m_LastWindowPixelSize: {x: 3064, y: 1580}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 1043.75, y: 336.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 010000000001000001
---- !u!114 &18
+  m_LowResolutionForAspectRatios: 01000000000100000100
+  m_XRRenderMode: 0
+--- !u!114 &27
 MonoBehaviour:
   m_ObjectHideFlags: 52
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_AutoRepaintOnSceneChange: 0
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
@@ -681,10 +2541,10 @@ MonoBehaviour:
     m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
-  m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 718
-    width: 1366
-    height: 308
+    x: 0
+    y: 530.4
+    width: 838
+    height: 254
+  m_PersistentViewDataDictionary: {fileID: 0}
